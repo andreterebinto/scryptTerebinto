@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
     spec.name         = 'scryptTerebinto'
-    spec.version      = '1.0.0'
+    spec.version      = '1.1.0'
     spec.ios.deployment_target = "10.0"
     spec.osx.deployment_target = "10.10"
     spec.tvos.deployment_target = "9.0"
     spec.watchos.deployment_target = "2.0"
     spec.license      = { :type => 'Apache License 2.0', :file => 'License.md' }
     spec.summary      = 'scrypt module for web3swift'
-    spec.homepage     = 'https://github.com/andreterebinto/scryptTerebinto'
+    spec.homepage     = 'https://github.com/andreterebinto/'
     spec.author       = 'Andre Terebinto'
     spec.source       = { :git => 'https://github.com/andreterebinto/scryptTerebinto.git', :tag => String(spec.version) }
     spec.pod_target_xcconfig = {
